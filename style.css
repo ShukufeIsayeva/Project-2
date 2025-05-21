@@ -1,0 +1,105 @@
+
+
+
+.h-screen{
+
+    height: auto;
+}
+
+.menu a,.menu i{
+    color: black;
+}
+.menu a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu a.active,.menu a.active i{
+    color: rgb(68, 192, 146);
+}
+.left-25{
+    left: 25%;
+    height: auto;
+}
+.sucial-media {
+    color: rgb(30, 158, 124);
+}
+
+.sucial-media i:hover{
+    color: grey;
+}
+.menu a i:hover{
+    color: black;
+}
+.menu a:hover{
+    color:black;
+    display: block;
+    width: 100%;
+background-color: rgb(180, 179, 179);
+
+}
+/* RIGHT SECTION  */
+
+.bg-right-section{
+    background-color:rgb(216, 216, 216);
+}
+.divider{
+    background-color: grey;
+    height: 10px;
+}
+
+.fs-30{
+font-size: 30px;
+font-weight: bold;
+}
+.card-img:hover img{
+    transition: all 0.3s ease;
+    opacity: 0.6;
+
+}
+.nav-btn{
+    border: none;
+    width: 30px;
+    height: 30px;
+    outline: none;
+
+}
+.nav-btn.active{
+background-color: black;
+    color: white;
+}
+
+.nav-btn:not(.active):hover{
+    background-color: black;
+    color: white;
+}
+.images{
+    margin-right: px;
+    width: 550px;
+}
+.title{
+    color: black;
+    font-size: 20px;
+}
+.btn-1 button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+.btn-1 button:hover{
+    background-color: grey;
+}
+/* .a-column{
+    width: 35px;
+    height:200px;
+} */
+
+hr{
+    background-color: white;
+    /* height: 2px; */
+    margin-top: 50px;
+}
